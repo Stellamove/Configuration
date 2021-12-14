@@ -1,7 +1,7 @@
 # Configurations
-Pre-tested Configurations for Marlin Firmware bugfix-2.0.x
+Pre-tested Configurations for Marlin4Pitta Firmware
 
-Marlin Firmware is configured using two files:
+Marlin4Pitta Firmware is configured using two files:
 
 - `Configuration.h` contains core configuration options like machine geometry.
 - `Configuration_adv.h` contains optional settings for advanced and low level features.
