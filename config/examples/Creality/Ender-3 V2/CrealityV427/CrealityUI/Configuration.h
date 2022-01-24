@@ -140,7 +140,7 @@
 
 // Choose the name from boards.h that matches your setup
 #ifndef MOTHERBOARD
-  #define MOTHERBOARD BOARD_CREALITY_V4
+  #define MOTHERBOARD BOARD_CREALITY_V427
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
@@ -148,7 +148,7 @@
 #if MMU_MODEL == PITTA_MMU
   #define CUSTOM_MACHINE_NAME "PITTA PRINTER"
 #else
-  #define CUSTOM_MACHINE_NAME "Ender-3 V2 4.2.2"
+  #define CUSTOM_MACHINE_NAME "Ender-3 V2 4.2.7"
 #endif
 
 // Printer's unique ID, used by some programs to differentiate between machines.

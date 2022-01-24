@@ -21,8 +21,6 @@
  */
 #pragma once
 
-#define CONFIG_EXAMPLES_DIR "Creality/Ender-3 Pro/CrealityV422"
-
 /**
  * Configuration.h
  *
@@ -72,7 +70,7 @@
 
 // Author info of this build printed to the host during boot and M115
 // PITTA
-#define STRING_CONFIG_H_AUTHOR "(PITTA, Ender-3)" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "(Stellamove, PITTA)" // Who made the changes.
 //#define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 
 /**
@@ -148,9 +146,9 @@
 // Name displayed in the LCD "Ready" message and Info menu
 // PITTA
 #if MMU_MODEL == PITTA_MMU
-#define CUSTOM_MACHINE_NAME "Ender-3P Pro"
+  #define CUSTOM_MACHINE_NAME "PITTA PRINTER"
 #else
-#define CUSTOM_MACHINE_NAME "Ender-3 Pro V1.5"
+  #define CUSTOM_MACHINE_NAME "Ender-3 Pro 4.2.2"
 #endif
 
 // Printer's unique ID, used by some programs to differentiate between machines.
@@ -1352,7 +1350,7 @@
 // @section extruder
 
 #define DISABLE_E false             // Disable the extruder when not stepping
-#define DISABLE_INACTIVE_EXTRUDER   // Keep only the active extruder enabled
+//#define DISABLE_INACTIVE_EXTRUDER   // Keep only the active extruder enabled
 
 // @section machine
 
