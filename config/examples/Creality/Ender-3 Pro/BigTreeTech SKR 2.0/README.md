@@ -4,7 +4,7 @@ The Configurations files were created based on the stock Ender-3 Pro. And to mai
 
 ## Flashing Firmware
 
-The bootloader which handles flashing new firmware on this board use "`firmware.bin`" file on the SD card.
+The bootloader which handles flashing new firmware on this board use "`firmware.bin`" file on the root folder of SD card.
 
 ## Configurations
 
